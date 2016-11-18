@@ -1,8 +1,6 @@
 class Board
   attr_accessor :grid
 
-  # grid is in rows and columns, beginning of a column is the "top" of the board
-
 
   def initialize
     @grid = []
